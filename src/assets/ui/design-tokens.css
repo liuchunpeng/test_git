@@ -1,0 +1,56 @@
+/* 计算器设计令牌 (Design Tokens) - web-calculator v1.0.0 */
+/* 来源：web-calculator-ui-delivery/css/design-tokens.css */
+
+:root {
+  /* 颜色系统 */
+  --color-primary: #FF8C42;
+  --color-secondary: #FF6B6B;
+  --color-accent: #4ECDC4;
+  --color-success: #52C41A;
+  --color-warning: #FAAD14;
+  --color-error: #FF4D4F;
+  --color-text: #2D3436;
+  --color-text-secondary: #636E72;
+  --color-background: #1A1A2E;
+  --color-surface: #16213E;
+  --color-border: #0F3460;
+
+  /* 按钮颜色 */
+  --button-number-bg: #FFFFFF;
+  --button-number-text: #2D3436;
+  --button-operator-bg: #FF8C42;
+  --button-operator-text: #FFFFFF;
+  --button-function-bg: #4ECDC4;
+  --button-function-text: #FFFFFF;
+  --button-equal-bg: #FF6B6B;
+  --button-equal-text: #FFFFFF;
+
+  /* 字体 */
+  --font-family: Inter, PingFang SC, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-size-display: 48px;
+  --font-size-button: 28px;
+  --font-weight-bold: 600;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
+
+  /* 间距 */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-lg: 16px;
+  --spacing-xl: 24px;
+  --spacing-xxl: 32px;
+
+  /* 圆角 */
+  --border-radius-sm: 8px;
+  --border-radius-md: 12px;
+  --border-radius-lg: 16px;
+
+  /* 阴影 */
+  --shadow-button: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-display: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+  /* 过渡 */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.25s ease;
+}
