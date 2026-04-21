@@ -1,32 +1,5 @@
 {
-  "source": "web-calculator-ui-delivery/ui-assets-manifest.json",
-  "used_assets": [
-    {
-      "file_name": "Modern_minimalist_calculator_a_2026-04-20T15-26-23.png",
-      "component": "CalculatorView",
-      "used_in": "App.vue"
-    }
-  ],
-  "color_tokens": {
-    "primary": "#FF8C42",
-    "secondary": "#FF6B6B",
-    "accent": "#4ECDC4",
-    "success": "#52C41A",
-    "warning": "#FAAD14",
-    "error": "#FF4D4F",
-    "text": "#2D3436",
-    "text_secondary": "#636E72",
-    "background": "#1A1A2E",
-    "surface": "#16213E",
-    "border": "#0F3460",
-    "button_number_bg": "#FFFFFF",
-    "button_operator_bg": "#FF8C42",
-    "button_function_bg": "#4ECDC4",
-    "button_equal_bg": "#FF6B6B"
-  },
-  "font_tokens": {
-    "family": "Inter, PingFang SC, -apple-system, sans-serif",
-    "display_size": "48px",
-    "button_size": "28px"
-  }
+  "source": "pipeline/web-calculator-ui-delivery/ui-assets-manifest.json",
+  "used_assets": [{ "file_name": "design-tokens.css", "component": "All", "used_in": "main.js" }],
+  "color_tokens": { "primary": "#FF8C42", "secondary": "#FF6B6B", "accent": "#4ECDC4", "background": "#1A1A2E" }
 }
